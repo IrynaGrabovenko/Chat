@@ -2,7 +2,7 @@ const mongo = require('mongodb').MongoClient;
 const client = require('socket.io').listen(4000).sockets;
 
 // Connect to mongo
-mongo.connect('mongodb://127.0.0.1/chatproject', function(err, db){
+mongo.connect('mongodb://127.0.0.1/chatproject',{useNewUrlParser: true} ,function(err, db){
     if(err){
         throw err;
     }
