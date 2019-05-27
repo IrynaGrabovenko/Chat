@@ -1,0 +1,21 @@
+{
+  "name": "chatproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.6",
+    "nodemon": "^1.19.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+  }
+
+}
